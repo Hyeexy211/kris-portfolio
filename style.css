@@ -1,29 +1,14 @@
-body{
-    background: #f4f4f4;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-.card{
-    background: white;
-    padding: 25px;
-    margin: 20px auto;
-    width: 350px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    text-align: center;
-    border-radius: 20px;
-}
-img{
+.avatar{
     width: 160px;
-    height: 160px;
     border-radius: 50%;
 }
-h1{
-    color:aqua;
-    font-size: 24px;
-    margin: 10px 0;
+
+.title{
+    color:#222;
+    font-size: 36px;
 }
-p{
-    color: #333;
-    font-size: 16px;
-    margin: 5px 0;
+
+.description{
+    color:#666;
+    font-size: 18px;
 }
