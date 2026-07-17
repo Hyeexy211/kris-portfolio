@@ -60,6 +60,26 @@ body{
     font-weight: bold;
     color: #333;
 }
+.gallery{
+    padding: 120px 80px;
+}
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.gallery-grid img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.gallery-grid img{
+    transition:0.4s;
+}
+.gallery-grid img:hover{
+    transform: scale(1.03);
+}
 nav a{
     text-decoration: none;
     color: #333;
